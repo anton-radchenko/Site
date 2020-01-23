@@ -1,0 +1,374 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.red_area {
+  background-color: #de2b24;
+  width: 100%;
+  height: 866px;
+}
+.head_text {
+  color: white;
+  text-align: center;
+}
+.head_text h1 {
+  padding-top: 110px;
+}
+.line {
+  width: 47px;
+  height: 5px;
+  background-color: white;
+  margin-top: 18px;
+  margin-bottom: 48px;
+}
+.our_work {
+  height: 512px;
+  width: 1024px;
+  display: block;
+  position: relative;
+  margin-left: 188px auto;
+}
+.image {
+  position: absolute;
+  width: 256px;
+  height: 256px;
+}
+.image img {
+  width: 256px;
+  height: 256px;
+}
+
+.content {
+  width: 1400px auto;
+}
+
+.image1 {
+  position: absolute;
+  left: 256px;
+  width: 256px;
+  height: 256px;
+}
+.image1 img {
+  width: 256px;
+  height: 256px;
+}
+.image2 {
+  position: absolute;
+  left: 768px;
+  width: 256px;
+  height: 256px;
+}
+.image2 img {
+  width: 256px;
+  height: 256px;
+}
+.image3 {
+  position: absolute;
+  width: 256px;
+  height: 256px;
+  top: 256px;
+}
+.image3 img {
+  width: 256px;
+  height: 256px;
+}
+.image4 {
+  position: absolute;
+  width: 256px;
+  height: 256px;
+  left: 512px;
+  top: 256px;
+}
+.image4 img {
+  width: 256px;
+  height: 256px;
+}
+.box1 {
+  position: absolute;
+  width: 256px;
+  height: 256px;
+  left: 0;
+  background-color: #f35e59;
+  text-align: center;
+}
+.box1 h2 {
+  color: white;
+  position: absolute;
+  top: 130px;
+  left: 54px;
+}
+.box1 p {
+  color: white;
+  position: absolute;
+  top: 165px;
+  left: 48px;
+}
+.box1 img {
+  position: absolute;
+  top: 75px;
+  left: 110px;
+}
+
+.box2 {
+  position: absolute;
+  width: 256px;
+  height: 256px;
+  left: 512px;
+  background-color: #f35e59;
+}
+.box2 h2 {
+  color: white;
+  position: absolute;
+
+  top: 135px;
+  left: 48px;
+}
+.box2 p {
+  color: white;
+  position: absolute;
+
+  top: 165px;
+  left: 75px;
+}
+.box2 img {
+  position: absolute;
+  top: 75px;
+  left: 110px;
+}
+.box3 {
+  position: absolute;
+  width: 256px;
+  height: 256px;
+  top: 256px;
+  left: 256px;
+  background-color: #f35e59;
+}
+.box3 h2 {
+  color: white;
+  position: absolute;
+  top: 135px;
+  top: 135px;
+  left: 48px;
+}
+.box3 p {
+  color: white;
+  position: absolute;
+  top: 165px;
+  left: 75px;
+}
+.box3 img {
+  position: absolute;
+  top: 75px;
+  left: 110px;
+}
+.box4 {
+  position: absolute;
+  width: 256px;
+  height: 256px;
+  top: 256px;
+  left: 768px;
+  background-color: #f35e59;
+}
+.box4 img {
+  position: absolute;
+  top: 75px;
+  left: 110px;
+}
+.box4 h2 {
+  color: white;
+  position: absolute;
+  top: 130px;
+  left: 54px;
+}
+.box4 p {
+  color: white;
+  position: absolute;
+  top: 165px;
+  left: 48px;
+}
+.blue_area {
+  position: absolute;
+  height: 849px;
+  background-color: #1287bf;
+  top: 866px;
+  width: 100%;
+}
+.blue_text_top {
+  text-align: center;
+  color: white;
+}
+.blue_text_top h1 {
+  padding-top: 100px;
+}
+.blue_text_top p {
+  font-size: 20px;
+}
+.circle {
+  position: relative;
+  width: 66px;
+  height: 66px;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.circle i {
+  border: 10px solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+  position: absoulute;
+  margin: 18px 21px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.form_arrow {
+  width: 45px;
+  height: 45px;
+  background-color: #fff;
+  position: absolute;
+  transform: rotate(45deg);
+  margin-top: -23px;
+  margin-left: 319px;
+}
+.closer {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #de2b24;
+  border: 3px solid #fff;
+  margin-left: 650px;
+  margin-top: -23px;
+}
+.closer a {
+  text-decoration: none;
+  position: absolute;
+  margin-top: 4px;
+  font-size: 27px;
+  color: white;
+  margin-left: -7px;
+}
+.reg_form {
+  margin-top: 53px;
+  width: 683px;
+  height: 450px;
+  text-align: center;
+  background-color: white;
+  border-radius: 2px;
+}
+.reg_form p {
+  padding-top: 51px;
+  font-size: 15px;
+  color: #828282;
+}
+.input_1,
+.input_2,
+.input_3 {
+  margin-top: 8px;
+  border-radius: 5px;
+  border: 1px solid #d8d8d8;
+  height: 52px;
+  width: 444px;
+  display: block;
+}
+.inputs {
+  margin-top: 41px;
+}
+.inputs input {
+  width: 424px;
+  height: 46px;
+  border: none;
+  outline: none;
+}
+.inputs .btn {
+  margin-top: 36px;
+  width: 161px;
+  height: 46px;
+  border-radius: 5px;
+  background-color: #de2b24;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.gray_area {
+  position: absolute;
+  height: 489px;
+  background-color: #2a2a2a;
+  top: 1715px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.social {
+  margin-top: 30px;
+  width: 305px;
+}
+.social div {
+  display: inline-block;
+  border: 2px solid #515151;
+  width: 49px;
+  height: 49px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.social div img {
+  cursor: pointer;
+  margin-top: 12px;
+  height: 22px;
+}
+.gray_area h2 {
+  margin-top: 89px;
+  font-size: 29px;
+}
+
+.gray_area p {
+  margin-top: 37px;
+  color: white;
+  text-align: center;
+}
+.email_input {
+  margin-top: 34px;
+  background-color: #515151;
+  width: 683px;
+  height: 56px;
+}
+.email_input input {
+  border: none;
+  outline: none;
+  width: 645px;
+  height: 54px;
+  background-color: #515151;
+}
+.email_input input::placeholder {
+  color: white;
+}
+.btn_subscribe {
+  cursor: pointer;
+  margin-top: 27px;
+  width: 153px;
+  height: 53px;
+  border: 2px solid #515151;
+  background-color: #2a2a2a;
+  border-radius: 5px;
+  font-size: 17px;
+  color: #fff;
+}
+.footer {
+  text-align: center;
+  padding-top: 27px;
+  position: absolute;
+  background-color: #515151;
+  height: 67px;
+  top: 2204px;
+  width: 100%;
+  color: #fff;
+}
